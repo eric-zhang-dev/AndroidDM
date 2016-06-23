@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">测试</string>
+
+    <!-- Strings related to login -->
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="edit_text_hint_mobile">输入管理员手机</string>
+    <string name="edit_text_hint_password">输入密码</string>
+    <string name="edit_text_hint_identifying_code">输入验证码</string>
+    <string name="login_user">商家登录</string>
+    <string name="login_regist">我要开店</string>
+    <string name="login_forget_password">忘记密码？</string>
+    <string name="regist_city_online">点米线上城市</string>
+    <string name="get_code">获取验证码</string>
+    <string name="next_text">下一步</string>
+    <string name="submit_text">提交</string>
+    <string name="primary_0">待处理</string>
+    <string name="primary_1">处理中</string>
+    <string name="primary_2">管理</string>
+    <string name="primary_3">设置</string>
+
+    <string name="title_forget_password">忘记密码</string>
+    <string name="title_regist_mobile">手机验证</string>
+    <string name="title_restaurant_information">餐厅信息</string>
+    <string name="title_advice">给我们建议</string>
+    <string name="title_account">账户</string>
+    <string name="title_bill">我的账单</string>
+    <string name="title_printer">打印机</string>
+    <string name="title_printer_servings">打印份数</string>
+    <string name="title_dish_categorys_manager">菜品管理</string>
+    <string name="title_dish_create">添加菜品</string>
+    <string name="title_dish_sales">单品销量</string>>
+    <string name="title_processed">已处理</string>
+    <string name="business_info">商家信息</string>
+    <string name="wait_dialog_title">正在请求,请稍后...</string>
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+    android:background="@color/blue"
+    android:orientation="horizontal">
+
+    <com.dm.view.SelectBtn
+        android:id="@+id/btn0"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        app:isSelect="true"
+        app:selectColor="@android:color/white"
+        app:noSelectColor="@color/text_blue_light"
+        app:selectImg="@mipmap/primary_bottom_0_"
+        app:noSelectImg="@mipmap/primary_bottom_0"
+        app:text="@string/primary_0"/>
+    <com.dm.view.SelectBtn
+        android:id="@+id/btn1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        app:selectColor="@android:color/white"
+        app:noSelectColor="@color/text_blue_light"
+        app:selectImg="@mipmap/primary_bottom_1_"
+        app:noSelectImg="@mipmap/primary_bottom_1"
+        app:text="@string/primary_1"/>
+    <com.dm.view.SelectBtn
+        android:id="@+id/btn2"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        app:selectColor="@android:color/white"
+        app:noSelectColor="@color/text_blue_light"
+        app:selectImg="@mipmap/primary_bottom_2_"
+        app:noSelectImg="@mipmap/primary_bottom_2"
+        app:text="@string/primary_2"/>
+    <com.dm.view.SelectBtn
+        android:id="@+id/btn3"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        app:selectColor="@android:color/white"
+        app:noSelectColor="@color/text_blue_light"
+        app:selectImg="@mipmap/primary_bottom_3_"
+        app:noSelectImg="@mipmap/primary_bottom_3"
+        app:text="@string/primary_3"/>
+</LinearLayout>

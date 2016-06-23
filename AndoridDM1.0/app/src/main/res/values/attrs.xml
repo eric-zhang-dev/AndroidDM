@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SelectBtn">
+        <attr name="selectImg" format="reference" />
+        <attr name="noSelectImg" format="reference" />
+        <attr name="selectColor" format="color" />
+        <attr name="noSelectColor" format="color" />
+        <attr name="text" format="string" />
+        <attr name="isSelect" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="DotViewPager">
+        <attr name="viewPagerWidthToHeight" format="float" />
+        <attr name="viewPagerHeightToWidth" format="float" />
+        <attr name="displayIndexCount" format="boolean" />
+        <attr name="indexViewAttach" format="integer" />
+        <attr name="indexViewMargin" format="dimension" />
+        <attr name="indexPointSize" format="dimension" />
+        <attr name="indexPointGap" format="dimension" />
+        <attr name="indexPointNoSelectColor" format="color" />
+        <attr name="indexPointSelectColor" format="color" />
+        <attr name="indexPointBorderColor" format="color" />
+        <attr name="indexPointBorderWidth" format="dimension" />
+        <attr name="scrollCircle" format="boolean" />
+        <attr name="autoPlay" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="IconItem">
+        <attr name="iconImg" format="reference" />
+        <attr name="iconText" format="string" />
+    </declare-styleable>
+</resources>
