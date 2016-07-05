@@ -61,6 +61,63 @@ public class ServerAddress {
     public static String updatePasswordAddress(){
         return dm_server+"account/modify";
     }
+
+    /**
+     * category add 2.1
+     * @return
+     */
+    public static String categoryAddAddress(){
+        return dm_server+"course/category/add";
+    }
+    /**
+     * category list 2.2
+     * @return
+     */
+    public static String categoryListAddress(){
+        return dm_server+"course/category/list";
+    }
+    /**
+     * category update 2.3
+     * @return
+     */
+    public static String categoryUpdateAddress(){
+        return dm_server+"course/category/update";
+    }
+    /**
+     * category delete 2.4
+     * @return
+     */
+    public static String categoryDeleteAddress(){
+        return dm_server+"course/category/delete";
+    }
+    /**
+     * category delete 2.5(错误)
+     * @return
+     */
+    public static String categoryFuckAddress(){
+        return dm_server+"course/category/delete";
+    }
+    /**
+     * list Category 2.6
+     * @return
+     */
+    public static String listByCategoryAddress(){
+        return dm_server+"course/listByCategory";
+    }
+    /**
+     * course update 2.7
+     * @return
+     */
+    public static String courseUpdate(){
+        return dm_server+"course/update";
+    }
+    /**
+     * course update 2.8(有误)
+     * @return
+     */
+    public static String coursedUpdate(){
+        return dm_server+"course/update";
+    }
     /**
      * untreated order list
      * @return
